@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="inscription.css">
+  <title>Webcourses</title>
+</head>
+<header>
+ <div class="topnav">
+  <a class="active" href="#home">Inscription</a>
+  <a href="#news">Qui sommes nous ?</a>
+  <a href="#contact">Informations Club</a>
+  <a href="#about">Contact</a>
+  <a href="#about">Deja Inscrit ?</a>
+  <a href="#contact">Calendrier évènementiel</a>
+</div>
+</header>
+<body>
+  <div class="home">
+      <div class="form-group">
+        <form class="formulaire" role="search" method="post" action="./registre.php">
+            <input type="text" name="prenom" placeholder="Entrez votre prenom ?">
+            <input type="text" name="nom" placeholder="Entrez votre nom ?">
+            <input type="text" name="identifiant" placeholder="Entrez un identifiant ?">
+            <input type="text" name="password" placeholder="Entrez un mot de passe ?">
+            <input type="text" name="confirmation" placeholder="Confirmez votre mot de passe ?">
+            <label>Taille du maillot :<select>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>2XL</option>
+              <option>3XL</option>
+              <option>4XL</option>
+              <option>5XL</option>
+              <option>6XL</option>
+            </select></label>
+            <input type="reset" value="Effacez">
+            <input type="submit" value="Validez" name="envoi">
+            </form>
+     </div>
+  </div>
+  <script type="text/javascript" src="inscription.js">
+    </script>
+</body>
+</html>
